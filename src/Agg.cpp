@@ -33,6 +33,7 @@
 
 typedef boost::iostreams::tee_device<ostream, ofstream> TeeDev;
 typedef boost::iostreams::stream<TeeDev> TeeStream;
+using namespace boost;
 
 bool runningGradTest = false;
 bool verbose = false;
