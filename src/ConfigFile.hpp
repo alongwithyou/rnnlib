@@ -28,7 +28,7 @@ along with RNNLIB.  If not, see <http://www.gnu.org/licenses/>.*/
 #include "String.hpp"
 
 ;
-
+using namespace std;
 struct ConfigFile {
   // data
   set<string> used;
